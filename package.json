@@ -13,6 +13,7 @@
     "@microsoft/fast-element": "^1.10.5"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }
