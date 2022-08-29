@@ -4,7 +4,7 @@
   "description": "sample project to learn Microsoft FAST",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
