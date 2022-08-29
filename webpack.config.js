@@ -10,8 +10,9 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack App',
+            title: 'FAST Project',
             filename: 'index.html',
+            template: 'src/template.html',
         }),
     ],
     
