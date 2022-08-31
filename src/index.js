@@ -8,3 +8,5 @@ import {
           fastButton()
       );
 import './style.css';
+
+console.log('test');
