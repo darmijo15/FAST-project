@@ -4,8 +4,8 @@
   "description": "sample project to learn Microsoft FAST",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve"
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --config webpack.dev.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,7 @@
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.10.1"
+    "webpack-dev-server": "^4.10.1",
+    "webpack-merge": "^5.8.0"
   }
 }
