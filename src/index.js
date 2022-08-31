@@ -7,3 +7,4 @@ import {
       .register(
           fastButton()
       );
+import './style.css';
