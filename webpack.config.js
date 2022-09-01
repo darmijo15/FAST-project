@@ -16,9 +16,10 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'FAST Project',
-            filename: 'index.html',
             template: 'src/template.html',
+            filename: 'index.html',
+            title: 'FAST Project',
+            minify: { collapseWhitespace: false },
         }),
     ],
 }
