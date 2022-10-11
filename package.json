@@ -2,7 +2,7 @@
   "name": "fast-project",
   "version": "1.0.0",
   "description": "sample project to learn Microsoft FAST",
-  "main": "index.js",
+  "main": "script.ts",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve --mode development"
